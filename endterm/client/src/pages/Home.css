@@ -1,0 +1,52 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+.table {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th {
+  text-align: center;
+  border: 1px solid #dddddd;
+  background-color: rgb(42, 42, 106);
+  color: white;
+  padding: 8px;
+}
+
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 5px;
+  padding-left: 20px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.optionButton {
+  cursor: pointer;
+  border: 1px solid transparent;
+  background-color: rgb(70, 70, 204);
+  color: white;
+  width: 100px;
+  margin: 5px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.optionButton:hover {
+  background-color: rgb(42, 42, 106);
+}
+
+.button-grp {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

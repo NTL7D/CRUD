@@ -1,0 +1,40 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightblue;
+  text-decoration: none;
+  padding: 20px;
+}
+.h3 {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(70, 70, 204);
+}
+
+h3:hover {
+  color: rgba(42, 42, 106);
+}
+
+.nav-group {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.nav-btn {
+  text-decoration: none;
+  border: 1px solid transparent;
+  background-color: rgb(70, 70, 204);
+  color: white;
+  width: 250px;
+  margin-right: 10px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.nav-btn:hover {
+  background-color: rgba(42, 42, 106);
+}

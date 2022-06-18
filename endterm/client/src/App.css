@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1,
+h3 {
+  text-align: center;
+}
+
+.input {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.label {
+  display: flex;
+  justify-content: flex-start;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.input input {
+  border: 1px solid black;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 300px;
+  height: 50px;
+  padding-left: 20px;
+  font-size: 16px;
+}
+
+.btn {
+  cursor: pointer;
+  margin-top: 20px;
+  border: 1px solid transparent;
+  background-color: rgb(70, 70, 204);
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  width: 300px;
+  height: 50px;
+  padding: 15px;
+}
+
+.btn:hover {
+  background-color: rgb(42, 42, 106);
+}
+
+.btn-2 {
+  cursor: pointer;
+  border: 1px solid transparent;
+  background-color: rgb(70, 70, 204);
+  color: white;
+  width: 80px;
+  margin: 5px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.btn-2:hover {
+  background-color: rgb(42, 42, 106);
+}
+
+.option {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#updateInput {
+  width: 90%;
+  height: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+

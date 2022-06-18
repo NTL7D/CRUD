@@ -1,0 +1,53 @@
+.inputForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+form label {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+form input[type="text"],
+input[type="number"] {
+  width: 400px;
+  height: 50px;
+  border: 1px solid black;
+  padding-left: 15px;
+  font-size: 18px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-group input[type="button"],
+input[type="submit"] {
+  cursor: pointer;
+  border: 1px solid transparent;
+  background-color: rgb(70, 70, 204);
+  color: white;
+  width: 150px;
+  margin: 5px;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 15px;
+}
+
+input[type="button"]:hover,
+input[type="submit"]:hover {
+  background-color: rgba(42, 42, 106);
+}
